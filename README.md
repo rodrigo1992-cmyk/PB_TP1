@@ -13,3 +13,5 @@ docs
     ↳Wireframe Lo-fi.png
   ↳data docs
     ↳Data Summary Report.txt
+
+requirements.txt
