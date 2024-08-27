@@ -2,10 +2,10 @@
 
 Favor consultar os documentos listados abaixo, contendo os artefatos solicitados no TP1:
 
-app
-  ↳app.py
-  ↳data
-    ↳processed
+-app
+ - ↳app.py
+ - ↳data
+   - ↳processed
        ↳Exemplo_Amostra_Dados.csv
 docs
   ↳bussiness docs
