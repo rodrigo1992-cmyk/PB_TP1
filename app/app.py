@@ -11,3 +11,10 @@ st.write("""
 * Desenvolver visualizações em Streamlit para apresentar os resultados.
 * Oferecer insights para candidatos, recrutadores e instituições de ensino sobre tendências de mercado.
 """)
+
+st.write("Acesse este link para visualizar a página de onde serão coletados os dados, já com exemplo de filtro. (https://www.linkedin.com/jobs/search?keywords=Cientista%20De%20Dados&location=Rio%20de%20Janeiro%2C%20Rio%20de%20Janeiro%2C%20Brasil&geoId=106701406&distance=0&f_TPR=&position=1&pageNum=0)")
+st.write("Link para uma inspiração visual (https://www.behance.net/gallery/198960873/Job-finder-dashboard?tracking_source=search_projects|job+dashboard&l=2)")
+st.write("Abaixo, segue um exemplo/amostra dos dados que serão coletados:")
+
+df = pd.read_csv('app\data\processed\Exemplo_Amostra_Dados.csv')
+st.dataframe(df)
